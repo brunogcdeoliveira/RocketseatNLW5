@@ -48,11 +48,11 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   <p>{episode.members}</p>
                   <span>{episode.publishedAt}</span>
                   <span>{episode.durationAsString}</span>
-
-                  <button type="button">
-                    <img src="/play-green" alt="Tocar episódio"/>
-                  </button>
                 </div>
+
+                <button type="button">
+                  <img src="/play-green.svg" alt="Tocar episódio"/>
+                </button>
               </li>
             )
           })}
